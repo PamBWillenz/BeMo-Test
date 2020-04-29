@@ -1,13 +1,9 @@
-# Kirby Plainkit
+# BeMo Academic Consulting Functional Programming Test
+using the Kirby, a a file-based CMS.
 
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
+## Objective
 
-## Trial
-
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
+Create a replica site <http://cdainterview.com/>
 
 ## Buy a license
 

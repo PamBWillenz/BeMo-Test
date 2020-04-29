@@ -1,1 +1,31 @@
 Title: Home
+
+----
+
+Heading: CDA Interview Guide
+
+----
+
+Modules: 
+
+-
+  cover:
+
+    - cda-interview-guide.jpg
+----
+
+Text:
+
+Ultimate Guide to CDA Structured Interview: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview
+
+Overview:
+
+The purpose of the dental school interview
+History and rationale of the CDA interview
+Types of Questions
+The Seven Competencies
+Structure of the CDA interview
+How to prepare for your CDA Interview
+Sample CDA interview questions
+BeMo CDA-structured interview prep program
+Contact us

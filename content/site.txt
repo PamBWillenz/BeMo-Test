@@ -1,1 +1,5 @@
-Title: Site Title
+Title: BeMo Academic Consulting
+----
+Footer:
+©2013-2016 BeMo Academic Consulting Inc. All rights reserved. Disclaimer & Privacy Policy Contact Us
+----
