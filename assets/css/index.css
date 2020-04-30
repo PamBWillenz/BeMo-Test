@@ -20,6 +20,8 @@ html {
 
 body {
   margin: 3rem;
+  background-image: url("assets/images/cda-interview-guide.jpg");
+  background-repeat: no-repeat;
 }
 
 header {
@@ -36,4 +38,12 @@ header {
 .menu a {
   margin-left: 1.5rem;
   margin-right: 2.5rem;
+}
+
+.branding a {
+border-bottom: 0;
+display: inline-block;
+background-image: url("../images/bemo_logo.png") 20% /contain no-repeat;
+height: 4.75rem;
+width: 40%;
 }

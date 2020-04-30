@@ -2,17 +2,14 @@ Title: Home
 
 ----
 
-Heading: CDA Interview Guide
+-
 
-----
-
-Modules: 
+  cover:
+    - cda-interview-guide.jpg
 
 -
-  cover:
 
-    - cda-interview-guide.jpg
-----
+  heading: CDA Interview Guide
 
 Text:
 
@@ -29,3 +26,16 @@ How to prepare for your CDA Interview
 Sample CDA interview questions
 BeMo CDA-structured interview prep program
 Contact us
+
+----
+
+heading: CDA Interview Guide
+
+----
+
+Modules:
+
+-
+  cover:
+
+    - cda-interview-guide.jpg
