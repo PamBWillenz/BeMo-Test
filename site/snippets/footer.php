@@ -1,5 +1,5 @@
 
-<h3><?= $page->footer() ?></h3>
+<h3><?= $site->footer()->html() ?></h3>
 
 </body>
 </html>

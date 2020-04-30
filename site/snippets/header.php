@@ -4,16 +4,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= $site->title() ?></title>
 
+  <a class="branding" href="<?= $site->url() ?>"><?= $site->title() ?></a>
+
+  <?= css('assets/css/index.css') ?>
 
 </head>
 <body>
-
-  <header>
-    <a class="branding" href="<?= $site->url() ?>"><?= $site->title() ?></a>
-
-    <?= css('assets/css/index.css') ?>
-
-  </header>
 
   <nav class="menu">
     <?php foreach ($site->children()->listed() as $subpage): ?>
