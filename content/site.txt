@@ -1,13 +1,5 @@
 Title: BeMo Academic Consulting
 
-
 ----
 
-
-
-Footer: ©2013-2016 BeMo Academic Consulting Inc. All rights reserved. 
-
-----
-
-
-Contact:
+Logourl: "../assets/images/bemo-logo2.png"
