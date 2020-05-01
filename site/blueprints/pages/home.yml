@@ -1,11 +1,28 @@
 title: Home
-icon: 
+icon: :house 
 preset: page
+
+options:
+  url:
+  status: 
+
 fields:
+  meta title:
+    label: meta title
+    type: text 
+  meta description:
+    label: meta description
+    type: textarea
+  tags:
+    label: tags
+    type: tags
   text:
     label: Text
     type: textarea
     size: large
-options:
-  changeStatus: false
+    layout: cards
+
+
+
+
 

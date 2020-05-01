@@ -16,6 +16,25 @@ columns:
       label: text
       type: textarea
       size: large
+    fields:
+      downloads:
+        label: Select files...
+        type: files
+        layout: cards
+      meta title:
+        label: meta title
+        type: text 
+      meta description:
+        label: meta description
+        type: textarea
+      tags:
+        label: tags
+        type: tags
+  text:
+    label: Text
+    type: textarea
+    size: large
+    layout: cards
 
   - width: 1/2
 
