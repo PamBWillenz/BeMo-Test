@@ -1,6 +1,6 @@
-/*:root {
-  --content-width: 65rem;
-}*/
+:root {
+  --content-width: 100vw;
+}
 
 *,
 *:after,
@@ -10,27 +10,192 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
 a {
   color: currentColor;
+  text-decoration: none;
 }
 
-html {
-  font-family: sans-serif;
+strong, b {
+  font-weight: 500;
 }
 
-body {
-  margin: 3rem;
-  background-image: url("assets/images/cda-interview-guide.jpg");
-  background-repeat: no-repeat;
+img {
+  width: 100%;
 }
 
-header {
+.page > * {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.header a {
+  position: relative;
+  font-size: .875rem;
+  letter-spacing: .05em;
+  padding: .5rem 0;
+  font-weight: 350;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/*.header .logo {
+  background-image: "";
+  display: block;
   margin-bottom: 1.5rem;
-  display: flex;
-  justify-content: space-between;
+  padding: .5rem;
+}*/
+
+img.resize {
+  width: 120px;
+  height: 100px;
+  background-image: "";
+  display: block;
+  margin-bottom: 1.5rem;
+  padding: .5rem;
+  width: 167px;
+  height: 100px;
 }
 
-.menu {
+
+
+} 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-left: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .9);
+  z-index: 3000;
+}
+
+.menu a {
+  margin: 0 .75rem;
+  margin-right: 5rem;
+}
+
+.menu a[aria-current] {
+  border-bottom: 2px solid #000;
+}
+
+@media screen and (min-width: 40rem) {
+  .header .logo {
+    margin-bottom: 0;
+    max-width: 170px;
+    margin-left: 30px;
+
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu {
+    margin-right: -.75rem;
+  }
+}
+
+
+main {
+  min-height: calc(100vh - 10rem);
+}
+
+.intro {
+  padding: 10vh 0;
+  text-align: center;
+}
+
+.intro h1 {
+  position: relative;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-size: calc(1vw + 2rem);
+  z-index: 1;
+}
+
+.tags {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.text {
+  line-height: 1.5em;
+}
+.text p,
+.text figure,
+.text ul,
+.text ol {
+  margin-bottom: 1.5em;
+}
+.text h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.text > *:first-child {
+  margin-top: 0;
+}
+.text a {
+  position: relative;
+  white-space: nowrap;
+  font-weight: 500;
+  z-index: 1;
+  display: inline-block;
+  border-bottom: 2px solid #000;
+}
+.text figure {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.text img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #000066;
+  padding: 1.5rem 5vw 10vh;
+  margin-top: 50px;
+  color: white;
+}
+.footer a {
+  font-size: .875rem;
+}
+.footer > a {
+  margin-bottom: 1.5rem;
+  width: max-content;
+  padding-top: .5rem;
+  float: left;
+}
+
+.social a {
+  margin: 0 .75rem;
+  padding: .5rem 1rem;
+  width: 7.5rem;
+  float: right;
+}
+
+br {
+  display: block;
+  margin: 100px;
+}
+
+/*.menu {
   display: flex;
   float: right;
 }
@@ -38,25 +203,5 @@ header {
 .menu a {
   margin-left: 1.5rem;
   margin-right: 2.5rem;
-}
+}*/
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.branding a {
-border-bottom: 0;
-display: inline-block;
-background-image: url("../images/bemo_logo.png") 20% /contain no-repeat;
-height: 4.75rem;
-width: 40%;
-}

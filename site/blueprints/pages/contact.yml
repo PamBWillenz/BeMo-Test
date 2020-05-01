@@ -1,0 +1,32 @@
+title: Contact
+icon:
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+columns:
+  - width: 1/2
+    fields:
+    text:
+      label: text
+      type: textarea
+      size: large
+
+  - width: 1/2
+
+    fields:
+      Name:
+        label: Name
+        type: textarea
+      email:
+        label: email
+        type: email
+      text:
+        label: How Can We Help You?
+        type: textarea
+  

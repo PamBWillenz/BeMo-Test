@@ -1,8 +1,11 @@
-title: Default Page
+title: Home
+icon: 
 preset: page
 fields:
   text:
     label: Text
     type: textarea
     size: large
+options:
+  changeStatus: false
 
