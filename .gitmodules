@@ -1,0 +1,3 @@
+[submodule "site/plugins/analytics"]
+	path = site/plugins/analytics
+	url = https://github.com/l4ci/kirby-analytics-plugin

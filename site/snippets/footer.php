@@ -13,5 +13,6 @@
     <?php endif ?>
   </footer>
 
+  snippet('analytics');
 </body>
 </html>
