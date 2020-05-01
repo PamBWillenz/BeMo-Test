@@ -1,51 +1,37 @@
-title: Contact
-icon:
-
-status:
-  draft: true
-  listed: true
+title: Home
+icon: :house 
+preset: page
 
 options:
-  changeSlug: false
-  delete: false
+  url:
+  status: 
 
-columns:
-  - width: 1/2
-    fields:
-    text:
-      label: text
-      type: textarea
-      size: large
-    fields:
-      downloads:
-        label: Select files...
-        type: files
-        layout: cards
-      meta title:
-        label: meta title
-        type: text 
-      meta description:
-        label: meta description
-        type: textarea
-      tags:
-        label: tags
-        type: tags
+fields:
   text:
-    label: Text
+    label: text
     type: textarea
     size: large
-    layout: cards
-
-  - width: 1/2
-
-    fields:
-      Name:
-        label: Name
-        type: textarea
-      email:
-        label: email
-        type: email
-      text:
-        label: How Can We Help You?
-        type: textarea
+  meta title:
+      label: meta title
+      type: text 
+  meta description:
+      label: meta description
+      type: textarea
+  tags:
+      label: meta tags
+      type: tags
+  text:
+      label: Text
+      type: textarea
+      size: large
+      layout: cards
+    Name:
+      label: Name
+      type: textarea
+    email:
+      label: email
+      type: email
+    text:
+      label: How Can We Help You?
+      type: textarea
   

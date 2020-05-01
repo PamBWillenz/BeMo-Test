@@ -14,13 +14,17 @@ fields:
     label: meta description
     type: textarea
   tags:
-    label: tags
+    label: meta tags
     type: tags
   text:
     label: Text
     type: textarea
     size: large
     layout: cards
+  analytics:
+    extends: analytics
+    type: tags
+    label: google analytics
 
 
 
