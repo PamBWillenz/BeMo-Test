@@ -11,10 +11,12 @@
       <?php endforeach ?>
     </nav>
     <?php endif ?>
-
-    snippet('analytics');
+    
   </footer>
 
-  
+  <?php snippet('analytics') ?>
+
+  </footer>
+
 </body>
 </html>

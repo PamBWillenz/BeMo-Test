@@ -9,6 +9,4 @@ c::get('analytics.google.id', false);
 // - Enabled by default
 c::get('analytics.google.anonymizeip' , true);
 
-panel install => true
-
  ?>
