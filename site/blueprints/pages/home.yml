@@ -2,29 +2,32 @@ title: Home
 icon: :house 
 preset: page
 
-options:
-  url:
-  status: 
-
 fields:
+  noIndex:
+    label: No Index (no-index = true)
+    type: text 
+    required: true
   meta title:
     label: meta title
     type: text 
   meta description:
     label: meta description
     type: textarea
-  tags:
-    label: meta tags
-    type: tags
   text:
     label: Text
     type: textarea
     size: large
     layout: cards
-  analytics:
-    extends: analytics
+  image:
+    type: files
+    require: true
+  google analytics:
+    extends: analytics tag
     type: tags
     label: google analytics
+  facebook:
+    label: facebook pixel advertising
+    type: tags
 
 
 
