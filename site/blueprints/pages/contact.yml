@@ -1,12 +1,11 @@
-title: Home
-icon: :house 
+title: Contact
 preset: page
 
-options:
-  url:
-  status: 
-
 fields:
+  noIndex:
+    label: No Index (no-index = true)
+    type: text
+    required: true
   text:
     label: text
     type: textarea
@@ -17,21 +16,16 @@ fields:
   meta description:
       label: meta description
       type: textarea
-  tags:
-      label: meta tags
-      type: tags
-  text:
-      label: Text
-      type: textarea
-      size: large
-      layout: cards
-    Name:
-      label: Name
-      type: textarea
-    email:
-      label: email
-      type: email
-    text:
-      label: How Can We Help You?
-      type: textarea
-  
+  heading:
+    type: text 
+    required: true
+  phone:
+    type: tel
+    required: true
+  email:
+    type: email
+  image:
+    type: files
+    required: true
+  note: 
+    type: text
